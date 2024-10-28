@@ -5,9 +5,9 @@
     Anthropic Claude 2.1
 
 ## Introduction
-In this video we will build a CHATBOT like application with AWS Amazon Bedrock, docker, python, Langchain, and Streamlit. We will use Retrieval-Augmented generation concept to provide context to the Large Language model along with user query to generate response from our Knowledgebase.
+This is a CHATBOT like application with AWS Amazon Bedrock, docker, python, Langchain, and Streamlit. I have used Retrieval-Augmented generation concept to provide context to the Large Language model along with user query to generate response from our Knowledgebase.
 
-In this hands-on tutorial, we will demonstrate the following:
+In this project, we will build the following:
 - Architecture of the applications
 - Build 2 applications (ADMIN and USER) and create DOCKER images
 
@@ -38,7 +38,7 @@ In this hands-on tutorial, we will demonstrate the following:
   - Langchain's RetrievalQA, does the following:
      - Convert the User's query to vector embedding using Amazon Titan Embedding Model (Make sure to use the same model that was used for creating the chunk's embedding on the Admin side)
     - Do similarity search to the FAISS index and retrieve 5 relevant documents pertaining to the user query to build the context
-    - Using Prompt template, provide the question and context to the Large Language Model. We are using Claude model from Anthropic.
+    - Using Prompt template, provide the question and context to the Large Language Model. I am using Claude model from Anthropic.
    -  Display the LLM's response to the user.
 
 ### Docker Commands:
@@ -53,7 +53,4 @@ In this hands-on tutorial, we will demonstrate the following:
 #### Note: The docker volume mount is only needed in local. If you are running the container in ECS, or EKS, the iam role is used.
 
 
-## Youtube
-I have created a Youtube video for this tutorials with step-by-step hands-on coding.
-
-[![Chat With PDF - Generative AI Application](https://i9.ytimg.com/vi/KFibP7KnDVM/mqdefault.jpg?v=66342224&sqp=CKzU0LEG&rs=AOn4CLASIjZrAdMHdLjZjWOnwM4a7gvQnA)](https://www.youtube.com/watch?v=KFibP7KnDVM)
+<!-- Youtube Reference - https://www.youtube.com/watch?v=KFibP7KnDVM -->
