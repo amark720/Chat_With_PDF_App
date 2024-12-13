@@ -53,4 +53,5 @@ In this project, we will build the following:
 #### Note: The docker volume mount is only needed in local. If you are running the container in ECS, or EKS, the iam role is used.
 
 
-<!-- Youtube Reference - https://www.youtube.com/watch?v=KFibP7KnDVM -->
+<!-- Youtube Reference - https://www.youtube.com/watch?v=KFibP7KnDVM 
+https://www.youtube.com/watch?v=ZPX3W77h_1E&ab_channel=Underfitted-->
